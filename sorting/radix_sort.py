@@ -32,6 +32,16 @@ c = RadixSort(a)
 print a
 print(c.sort(3))
 
+words = [
+    'cow', 'dog', 'sea', 'rug', 'row', 'mob', 'box',
+    'tab', 'bar', 'ear', 'tar', 'dig', 'big', 'tea',
+    'now', 'fox'
+]
+
+print(words)
+
+rwords = RadixSort(words)
+print(rwords.sort(3))
 
 # print a
 # print c.list
